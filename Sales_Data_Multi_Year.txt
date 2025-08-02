@@ -1,0 +1,39 @@
+Sales Data Multi-Year Analysis
+Project Description
+This project is an Excel workbook designed for a multi-year analysis of sales data. It takes raw transactional data and processes it to generate key performance metrics and visualizations that help identify sales trends, product performance, and monthly revenue patterns. The workbook is structured to be a complete solution for basic sales reporting and business intelligence.
+
+Key Features
+Multi-Year Data Handling The main data sheet contains sales records spanning several years, enabling long-term trend analysis.
+
+Performance Dashboard A dedicated dashboard provides a quick snapshot of overall performance, including total revenue and average revenue per product.
+
+Dynamic Pivot Tables Multiple pivot tables are configured to slice the data by different dimensions, such as month and product, to reveal deeper insights.
+
+Quantity and Revenue Tracking The analysis covers both Quantity Sold and Revenue to provide a holistic view of sales activity.
+
+Technologies Used
+Microsoft Excel
+
+Pivot Tables and Pivot Charts
+
+How to Use
+Main Data The raw sales data is stored in the Sales_Data_Multi_Year sheet. Ensure all new data is added here.
+
+Refresh Analysis After adding new data, you must refresh the pivot tables to update the analysis. This can be done by right-clicking any pivot table and selecting Refresh.
+
+Dashboard View The Dashboard sheet is your main point of reference for high-level metrics.
+
+Detailed Reports Use the Pivot Tables sheet to explore more granular data, such as monthly revenue or the total quantity sold per product.
+
+Data Fields
+The core dataset includes the following columns
+
+Date The date of the sale.
+
+Product Name The name of the product sold.
+
+Quantity Sold The number of units sold.
+
+Revenue The total revenue from the sale.
+
+Month A helper column for grouping data by month.
